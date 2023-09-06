@@ -1,0 +1,826 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="/output.css" />
+  </head>
+  <body class="h-screen">
+    <!-- header -->
+
+
+    <div class="one flex fixed top-0 px-2 flex-row items-center justify-between w-full h-10 lg:hidden bg-white">
+      <div
+        class="location border w-full h-10 flex justify-between items-center gap-2 flex-row bg-gray-100 ">
+        <img
+          src="assets/location.svg"
+          alt="" />
+        <p class="tehran ml-[30px] flex items-center">ایلام</p>
+        <hr class="hr w-[1px] h-[25px] bg-gray-800 items-center" />
+
+        <div class="search flex gap-2 w-full h-10 items-center justify-end " >
+          <p>جستجو در همه آگهی ها</p>
+          <img
+            src="assets/search.svg"
+            alt="" />
+        </div>
+      </div>
+    </div>
+
+    <!-- header desktop -->
+
+<div class=" hidden md:hidden lg:flex lg:justify-between lg:flex-row border border-y-gray-300 p-2 lg:sticky lg:top-0 lg:bg-white lg:w-full ">
+  <div class="flex items-center gap-8 justify-between text-xl ">
+    <button class="border border-gray-300 bg-red-700 rounded-2xl text-white w-36 h-16">ثبت آگهی</button>
+    <span> پشتیبانی</span>
+    <span class="flex flex-row items-center gap-2">
+      چت
+      <img src="assets/chat.svg" alt=""></span>
+      <span class="flex flex-row items-center gap-2 "> دیوارمن
+        <img src="assets/Vector(16).svg" alt="">
+      </span>
+    </div>
+
+  <div class="flex items-center gap-8 justify-between text-xl">
+    
+<div class=" flex border border-gray-300 w-[500px] h-[50px] border-none bg-gray-100 text-gray-300 items-center justify-end gap-2 p-2"  >
+  <span>جستجو در همه آگهی ها</span>
+  <img src="assets/search.svg" alt="">
+</div>
+
+<select name="" id="">
+  <option value="" >دسته ها</option>
+</select>
+<span class="flex flex-row gap-1 items-center">تهران
+  <img src="assets/location.svg" alt="">
+</span>
+<img class="w-[60px] h-[60px]" src="assets/logo.svg" alt="">
+
+  </div>
+</div>
+
+    <!-- tow-line -->
+    <div
+      class="tow flex w-full gap-2 fixed top-10 bg-white h-[48px] px-4  flex-row-reverse border items-center border-y-gray-300 box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05); overflow-x-scroll lg:hidden ">
+      <div
+        class="flex border border-solid  border-gray-400 rounded-full px-2 items-center justify-center h-[32px]">
+        <span class="text-sm flex items-center">فیلترها</span>
+      </div>
+
+      <div
+        class="flex border border-solid border-gray-400 rounded-full px-2 items-center justify-center h-[32px]">
+        <span class="text-sm flex items-center">دسته‌ها</span>
+      </div>
+
+      <div
+        class="flex border border-solid border-gray-400 rounded-full px-2 items-center justify-center h-[32px]">
+        <span class="text-sm flex items-center"> خودروسواری</span>
+      </div>
+
+      <div
+        class="flex border border-solid border-gray-400 rounded-full px-2 items-center justify-center h-[32px]">
+        <span class="text-sm flex items-center">فروش‌آپارتمان</span>
+      </div>
+      <div
+      class="flex border border-solid border-gray-400 rounded-full px-2 items-center justify-center h-[32px]">
+      <span class="text-sm flex items-center">دسته‌ها</span>
+    </div>
+    <div
+        class="flex border border-solid border-gray-400 rounded-full px-2 items-center justify-center h-[32px]">
+        <span class="text-sm flex items-center">دسته‌ها</span>
+      </div>
+      <div
+        class="flex border border-solid border-gray-400 rounded-full px-2 items-center justify-center h-[32px]">
+        <span class="text-sm flex items-center">دسته‌ها</span>
+      </div>
+
+    <div
+        class="flex border border-solid border-gray-400 rounded-full px-2 items-center justify-center h-[32px]">
+        <span class="text-sm flex items-center">دسته‌ها</span>
+      </div>
+    
+  </div>
+    <!-- three-line -->
+    <div
+      class="paragraph flex justify-end fixed top-[85px] bg-white   border border-neutral-900 border-none w-full h-[60px] items-center p-4 lg:justify-start lg:sticky lg:top-[80px]"
+      >
+      دیوار ایلام : انواع آگهی ها و خدمات در ایلام
+    </div>
+
+    <!-- main -->
+      
+<div class=" flex flex-row">
+
+    <div class="four grid grid-cols-1 w-full p-2 md:grid-cols-2 lg:grid-cols-3  lg:gap-2 lg:w-full">
+      <!-- اولین آگهی -->
+
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px] text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      
+       
+
+       <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+       
+
+       <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-row gap-3 justify-between w-full p-4 border border-gray-200 rounded-l h-fit boxShadow: {
+
+        'top': '0 0.5px 3px -1px rgba(0, 0, 0, 0.3)',
+        
+        'bottom': '0 0.7px 3px 0px rgba(0, 0, 0, 0.3)',
+        
+        'box': '0 0px 2px 0px rgba(0, 0, 0, 0.3)',
+        
+        }">
+        <img
+          src="./_storage_emulated_0_Android_data_app.rbmain.a_cache_-2147483648_-210002.jpg"
+          alt=""
+          class="h-[136px] w-[136px] rounded-[5px]" />
+
+        <div class="flex flex-col justify-between w-full gap-2">
+          <span class="text-right">توله گرگ</span>
+
+          <div class="flex flex-col gap-1">
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >بچه خوبیه آروم و سر به زیر</span
+            >
+
+            <span class="text-right text-subtext text-[12px]  text-gray-400"
+              >معاوضه با بستنی کیم</span
+            >
+
+            <div class="flex flex-row items-center justify-between gap-1">
+              <img
+                src="assets/comment.svg"
+                alt="" />
+
+              <span class="text-right text-subtext text-[12px]  text-gray-400"
+                ><span class="text-selected">فوری </span>در ایلام</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+ 
+   
+
+    <!-- left div -->
+
+    <div class=" hidden md:hidden lg:flex lg:flex-col lg:w-1/5 lg:gap-1  lg:p-4  " dir="rtl">
+<span class=" flex flex-row p-2">
+ 
+  دسته ها 
+  
+</span>
+<span class="flex flex-row gap-2  p-2" >
+  <img src="./assets/cat1.svg" alt="">
+ املاک</span>
+
+<span class="flex flex-row gap-2   p-2" >
+  <img src="assets/cat2.svg" alt="">وسابل نقلیه</span>
+
+<span class="flex flex-row gap-2  p-2">
+  <img src="assets/cat3.svg" alt="">کالای دیجیتال</span>
+
+<span class="flex flex-row gap-2 p-2">
+  <img src="assets/cat4.svg" alt="">خانه و آشپزخانه</span>
+
+<span class="flex flex-row gap-2 p-2">
+  <img src="assets/cat5.svg" alt="">خدمات</span>
+
+<span class="flex flex-row gap-2 p-2">
+  <img src="assets/cat6.svg" alt="">وسایل شخصی</span>
+
+<span class="flex flex-row gap-2 p-2">
+  <img src="assets/cat7.svg" alt="">سرگرمی و فراغت</span>
+
+<span class="flex flex-row gap-2 p-2">
+  <img src="assets/cat8.svg" alt="">اجتماعی</span>
+
+<span class="flex flex-row gap-2 p-2">
+  <img src="assets/cat9.svg " alt="">
+  تجهیزات و صنعتی</span>
+<span class="flex flex-row gap-2 p-2">
+  <img src="assets/cat10.svg" alt="">استخدام و کاریابی</span>
+<span class="flex flex-row gap-2 p-2">
+  <img src="assets/resome.svg" alt="">رزوه کارجویان</span>
+
+
+  
+  <select name="place" id="" class="outline-none  border-b-[1px] h-10 p-2 w-3/5" >
+    <option value="">محل</option>
+  </select>
+  <select name="place" id="" class="outline-none  border-b-[1px] h-10 p-2 w-3/5" >
+    <option value="">قیمت</option>
+  </select>
+  <select name="place" id="" class="outline-none  border-b-[1px] h-10 p-2 w-3/5" >
+    <option value="">وضعیت آگهی</option>
+  </select>
+
+<!-- left div bot -->
+
+  <div class="flex flex-col ">
+    <div class="flex flex-row  p-2 items-center">
+      <span class="p-2">درباره دیوار</span>
+      <span class="p-2">دریافت برنامه</span>
+      <span class="p-2">بلاگ دیوار</span>
+    </div>
+    <div class="flex p-2 ">
+      <span class="p-2">کسب و کارها</span>
+      <span class="p-2">پشتیبانی و قوانین</span>
+    </div>
+
+    <!-- left div insta box -->
+
+    <div class="flex flex-row-reverse justify-end items-center gap-2 mr-8 ">
+      <img  src="assets/aparat.svg" alt="">
+      <img class="p-3" src="assets/linkdin.svg" alt="">
+      <img class="p-3" src="assets/insta.svg" alt="">
+      <img  src="assets/X.svg" alt="">
+    </div>
+
+  </div>
+
+    </div>
+
+
+  </div>
+</div>
+
+    <!-- footer -->
+
+    <div
+      class="footer flex justify-between items-center flex-row-reverse border bg-white border-t-gray-300 pt-[10px] w-full h-[70px] fixed bottom-0 lg:hidden">
+      <div
+        class="footer_box border border-gray-600 border-none w-[120px] h-[70px] flex justify-center items-center flex-col p-1">
+        <svg
+          width="40"
+          height="30"
+          viewBox="0 0 44 28"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg">
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M14.772 19.734H14.56C14.1893 19.6763 13.8564 19.4745 13.6335 19.1727C13.4107 18.8709 13.316 18.4933 13.37 18.122C14.316 11.888 14.63 1.938 14.63 1.868C14.7 1.096 15.296 0.467998 16.102 0.501998C16.4711 0.518528 16.8195 0.677275 17.0741 0.944972C17.3288 1.21267 17.4699 1.56853 17.468 1.938C17.468 2.358 17.118 12.132 16.172 18.544C16.1214 18.8778 15.9518 19.1821 15.6945 19.4008C15.4373 19.6195 15.1096 19.7378 14.772 19.734ZM34.846 22.326C34.5482 22.3275 34.2578 22.2329 34.0178 22.0564C33.7779 21.8799 33.6013 21.6308 33.514 21.346C33.4559 21.1713 33.4335 20.9867 33.448 20.8032C33.4626 20.6197 33.5138 20.441 33.5986 20.2776C33.6835 20.1143 33.8002 19.9696 33.942 19.8521C34.0838 19.7347 34.2477 19.6469 34.424 19.594C41.044 17.494 41.15 15.88 41.186 15.004C41.256 13.638 40.206 11.888 39.786 11.292C39.5675 10.9902 39.4778 10.6139 39.5367 10.246C39.5956 9.87802 39.7982 9.54854 40.1 9.33C40.4018 9.11146 40.7781 9.02177 41.146 9.08065C41.514 9.13954 41.8435 9.34218 42.062 9.644C42.272 9.924 44.162 12.552 43.988 15.18C43.814 18.368 41.36 20.33 35.266 22.292C35.1957 22.2936 35.1256 22.2996 35.056 22.31C34.986 22.318 34.916 22.326 34.846 22.326ZM15.822 27.266C15.6123 27.2719 15.4042 27.2273 15.2152 27.1362C15.0263 27.045 14.8619 26.9098 14.736 26.742C14.6191 26.5988 14.5325 26.4333 14.4814 26.2556C14.4304 26.078 14.4159 25.8918 14.4389 25.7083C14.4619 25.5249 14.5219 25.348 14.6152 25.1885C14.7086 25.0289 14.8334 24.8899 14.982 24.78C17.854 22.502 19.782 20.47 21.042 18.684C20.342 18.334 19.606 17.808 19.222 16.932C18.87 16.126 18.66 14.794 19.886 13.008C21.638 10.416 23.39 9.82 24.054 9.68C24.4849 9.58973 24.9341 9.66599 25.3111 9.89345C25.6881 10.1209 25.9649 10.4827 26.086 10.906C26.262 11.536 26.682 13.534 25.422 16.582C27.102 16.546 28.434 16.092 29.45 15.25C31.41 13.674 31.516 11.01 31.516 10.976C31.5325 10.6066 31.6916 10.2579 31.9597 10.0032C32.2278 9.74848 32.5842 9.60756 32.954 9.61C33.3231 9.62653 33.6715 9.78528 33.9261 10.053C34.1808 10.3207 34.3219 10.6765 34.32 11.046C34.32 11.186 34.18 14.934 31.272 17.386C29.45 18.928 26.962 19.594 23.95 19.35C22.514 21.556 20.236 24.15 16.698 26.95C16.45 27.1511 16.1413 27.2624 15.822 27.266ZM23.424 13.114C22.9304 13.5358 22.5053 14.0317 22.164 14.584C21.708 15.284 21.672 15.67 21.708 15.776C21.778 15.952 22.128 16.126 22.478 16.266C23.144 14.936 23.354 13.884 23.424 13.114ZM23.774 22.958C23.7878 23.3217 23.9408 23.6663 24.2013 23.9205C24.4618 24.1747 24.81 24.3191 25.174 24.324H25.246C25.352 24.324 27.698 24.254 31.062 23.484C31.2445 23.4463 31.4177 23.3726 31.5714 23.2673C31.7252 23.162 31.8564 23.0271 31.9575 22.8706C32.0586 22.714 32.1275 22.5389 32.1602 22.3554C32.1929 22.172 32.1888 21.9838 32.148 21.802C32.1103 21.6195 32.0367 21.4463 31.9313 21.2926C31.826 21.1388 31.6912 21.0076 31.5346 20.9065C31.378 20.8054 31.2029 20.7365 31.0195 20.7038C30.836 20.6711 30.6479 20.6752 30.466 20.716C27.346 21.38 25.14 21.486 25.106 21.486C24.7346 21.5057 24.386 21.6715 24.1364 21.9473C23.8869 22.2231 23.7566 22.5865 23.774 22.958ZM0.268008 26.706C0.512008 27.056 0.968008 27.266 1.38801 27.266C1.66801 27.266 1.94801 27.196 2.22801 27.022C11.128 20.542 11.478 12.062 11.478 11.712C11.478 10.942 10.882 10.312 10.112 10.276C9.34001 10.24 8.71201 10.872 8.67601 11.642C8.67601 11.922 8.32401 19.104 0.582008 24.744C0.432242 24.852 0.305272 24.9884 0.208387 25.1456C0.111502 25.3027 0.0466091 25.4775 0.0174339 25.6598C-0.0117413 25.8421 -0.00462431 26.0283 0.0383762 26.2079C0.0813766 26.3874 0.159414 26.5567 0.268008 26.706Z"
+            fill="#A62626" />
+        </svg>
+
+        <button
+          class="btn border border-neutral-900 border-none flex justify-center w-[80px] h-[30px] mt-[3px]">
+          آگهی ها
+        </button>
+      </div>
+      <div
+        class="footer_box border border-gray-600 border-none w-[120px] h-[70px] flex flex-col justify-center items-center">
+        <img
+          class="list_img w-[30px] h-[30px]"
+          src="./img/icons8-bulleted-list-64.png"
+          alt="" />
+        <button
+          class="btn border border-neutral-900 border-none flex justify-center w-[80px] h-[30px]">
+          دسته ها
+        </button>
+      </div>
+      <div
+        class="footer_box border border-gray-600 border-none w-[120px] h-[70px] flex flex-col justify-center items-center">
+        <img
+          width="25"
+          height="25"
+          src="https://img.icons8.com/ios-glyphs/30/000000/plus--v1.png"
+          alt="plus--v1" />
+        <button
+          class="btn border border-neutral-900 border-none mt-[5px] flex justify-center w-[80px] h-[30px]">
+          ثبت آگهی
+        </button>
+      </div>
+      <div
+        class="footer_box border border-gray-600 w-[120px] border-none h-[70px] flex flex-col justify-center items-center">
+        <img
+          class="img_chat w-[25px] h-[25px]"
+          src="./img/Vector-13.svg"
+          alt="" />
+        <button
+          class="btn border border-neutral-900 border-none mt-[5px] flex justify-center w-[80px] h-[30px]">
+          چت
+        </button>
+      </div>
+      <div
+        class="footer_box border border-gray-600 w-[120px] h-[70px] border-none flex flex-col justify-center items-center">
+        <img
+          class="img_men_divar w-[25px] h-[25px]"
+          src="./img/Vector-14.svg"
+          alt="" />
+        <button
+          class="btn border border-neutral-900 border-none mt-[5px] flex justify-center w-[80px] h-[30px]">
+          دیوار من
+        </button>
+      </div>
+    </div>
+  </body>
+</html>
